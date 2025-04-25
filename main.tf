@@ -11,6 +11,7 @@ module "DevEnvironment" {
   website_url             = "https://github.com/AlexGuyNichols/nodejs-docs-hello-world.git"
   branch_name             = "main"
   username                = local.username
+  storm_url               = "https://github.com/AlexGuyNichols/nodejs-docs-hello-world.git"
 }
 module "PreProdEnvironment" {
   source                  = "./module/env"
@@ -23,5 +24,6 @@ module "PreProdEnvironment" {
   website_url             = "https://github.com/AlexGuyNichols/nodejs-docs-hello-world.git"
   username                = local.username
   branch_name             = "main"
+  storm_url               = "https://github.com/AlexGuyNichols/nodejs-docs-hello-world.git"
 }
 #endregion
