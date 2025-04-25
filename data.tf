@@ -1,4 +1,4 @@
 data "azurerm_resource_group" "existing" {
-  name = "test"
+  name = "1-ee2719eb-playground-sandbox"
 }
 
